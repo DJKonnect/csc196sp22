@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+
+		<!-- link to your script file here -->
+		<script type="text/javascript" src="fancifymytext.js"></script>
+		
+	</head>
+
+	<body>
+		<h1>Fancify my Text - CSC 196w SP2022</h1>
+		
+		<!-- UI Controls here -->
+		<fieldset>
+			<legend>Text</legend>
+			<textarea id="Text1" cols="30" rows="4"></textarea>
+		</fieldset>
+
+		<fieldset>
+			<legend>Fancify</legend>
+			<button onclick="bigger();">Bigger!</button>
+			
+			<input type="radio" name="type1" id="fancy" onchange="fancify();"> FancyShmancy
+    		<input type="radio" name="type1" id="boring" onchange="fancify();"> BoringBetty
+    		<br>
+    		<br>
+    		<button onclick="moo();">Moo!</button>
+		</fieldset>
+		
+	</body>
+</html>
